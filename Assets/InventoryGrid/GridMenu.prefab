@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1130898896597960}
+  m_IsPrefabParent: 1
+--- !u!1 &1130898896597960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224928362741022518}
+  - component: {fileID: 222585494042781758}
+  - component: {fileID: 114788912426031348}
+  - component: {fileID: 114768403047175940}
+  m_Layer: 5
+  m_Name: GridMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114768403047175940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1130898896597960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f373f1b4eb5b19946bd52bf0d8135abd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnAmount: 20
+  slotPrefabs:
+  - {fileID: 1808531601681240, guid: 672d54b1cba986941a63ad68f8a893a6, type: 2}
+  - {fileID: 1681842735949496, guid: f80a91f1d2f6d3f4aaf7b0ce24188561, type: 2}
+  - {fileID: 1145647579621770, guid: 42a0cacffca10a94caba1e400c03da00, type: 2}
+  - {fileID: 1429330917720408, guid: 384c26ea875a0534db14f87a0b0b865d, type: 2}
+  - {fileID: 1514696273130642, guid: ed28f2d6b1df67243b233c60ce3c4347, type: 2}
+  - {fileID: 1175899804989112, guid: cc30c348d7a06c9449eaa1bbfba5d0bc, type: 2}
+  - {fileID: 1618874441825316, guid: c9010c0a56d63ef4ba06a886813983a4, type: 2}
+  - {fileID: 1441671349440280, guid: b8dab987d2148774a92a7dfd91a1f05a, type: 2}
+  - {fileID: 1583382137852798, guid: c42d770591b36bd4e878dfd4546fe72f, type: 2}
+  pos: {x: 0, y: 0}
+  offset: {x: 0, y: 0}
+  horizontalGridSize: 5
+  verticalGridSize: 20
+  gridGap: 120
+  boolList: 
+--- !u!114 &114788912426031348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1130898896597960}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &222585494042781758
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1130898896597960}
+--- !u!224 &224928362741022518
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1130898896597960}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -650, y: 275}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
